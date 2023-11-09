@@ -1,0 +1,15 @@
+/* CSS for the body element */
+body {
+  margin: 0;  /* Resets the default margin of the body element to 0 to remove browser default spacing */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Sets a stack of preferred fonts for text, starting with system defaults and providing fallbacks */
+  -webkit-font-smoothing: antialiased; /* Enhances the font rendering on Webkit browsers like Chrome and Safari to make text crisper */
+  -moz-osx-font-smoothing: grayscale; /* Applies a grayscale antialiasing to text in Firefox on macOS for clearer font rendering */
+}
+
+/* CSS for elements using the <code> tag */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Sets a stack of preferred monospaced fonts for displaying code, providing multiple fallbacks */
+}

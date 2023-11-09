@@ -1,0 +1,473 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+.home-background {
+  background-size: 100% 100%;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.content {
+  padding-top: 75px;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #24292e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  flex-grow: 1;
+  text-align: center;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+nav a.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #0366d6;
+}
+
+
+nav a:hover {
+  color: #0366d6;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+
+.content h2 {
+  color: #333;
+}
+
+.content p {
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-container,
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-icons,
+.resume-icon {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-item {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  min-width: 180px;
+}
+
+.icon-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.icon {
+  margin-bottom: 10px;
+}
+
+.github {
+  color: black;
+}
+
+.email,
+.download {
+  color: #555;
+}
+
+.linkedin {
+  color: blue;
+}
+
+.icon-item p,
+.contact-link {
+  margin: 0;
+  text-decoration: none;
+}
+
+.email-icon-item {
+  pointer-events: none;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  color: #888;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.about-container {
+  display: flex;
+  padding: 40px;
+  background-color: #f7f9fc;
+}
+
+.profile-section {
+  flex: 1;
+  padding-right: 40px;
+  background-color: #e9ecef;
+}
+
+.info-section {
+  flex: 2;
+  padding-left: 40px;
+}
+
+.image-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #495057;
+}
+
+.bio-section,
+.skills-section {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.section-title {
+  text-align: left;
+  color: #495057;
+  margin-bottom: 20px;
+}
+
+.cv-title {
+  color: #495057;
+  text-align: center;
+}
+
+.bio,
+.skills-list {
+  line-height: 2;
+  list-style-type: none;
+  padding: 0;
+  color: #495057;
+}
+
+.bio-list li,
+.skills-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  max-width: 800px;
+  margin: 20px auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #e9ecef;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #495057;
+}
+
+.skills-list li:hover {
+  background-color: #495057;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 15px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  height: 350px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project:hover {
+  background-color: #495057;
+  color: white;
+}
+
+.project:hover h2,
+.project:hover ul li {
+  color: white;
+}
+
+.project-box {
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+.projects ul {
+  margin-top: -10px;
+}
+
+.project ul li {
+  text-align: left;
+  line-height: 2;
+}
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.experience {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 60%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.experience-info {
+  flex-grow: 1;
+  text-align: center;
+  margin-left: -60px;
+}
+
+.experience-tasks {
+  text-align: left;
+  padding-left: 0;
+}
+
+.experience-tasks li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.page-title {
+  color: #495057;
+}
+
+.profile-symbol {
+  display: none;
+}
+
+.profile-slide {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  height: 100vh;
+  background-color: #f7f9fc;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.profile-slide.open {
+  left: 0;
+}
+
+@media (max-width: 768px) {
+
+  .profile-symbol {
+    display: block;
+  }
+
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .profile-section,
+  .info-section {
+    padding: 20px 0;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .experience {
+    width: 90%;
+  }
+
+  .contact-mobile-hidden {
+    display: none;
+  }
+
+  .profile-section {
+    flex: 0;
+    padding-right: 0px;
+    background-color: #f9f9f9;
+  }
+
+  .contact-component {
+    padding-top: 75px;
+    min-height: 800px;
+  }
+}
+
+/*
+
+this page includes 
+
+App Layout: Central elements are aligned and animations are defined for an App-logo with a spinning effect. The App-header has a dark background with a flexible layout, and text scales responsively with the viewport size.
+
+Body and Navigation: The body of the page uses a flex layout with a top padding and a light background. The navigation is fixed at the top with flex layout, space-between alignment, and hover effects.
+
+Content Sections: Content sections have top padding and centered alignment, with h2 and p elements styled for color and line spacing. Contact and resume containers are flex columns centered both ways.
+
+Icons and Footer: Icons for GitHub, LinkedIn, and email are styled, with hover effects that change the background color. The footer is fixed at the bottom with a light background and grey text.
+
+About, Profile, and Skills Sections: The about container is a flex item with padding and a light background. Profile images are circular with a border, and skills are listed in a grid layout with hover effects.
+
+Projects and Experiences: Projects are styled as cards with shadows and hover effects to change the background and text color. Experiences are similar, with a logo, and list items for tasks performed.
+
+Responsive Design: Media queries are used for responsiveness, hiding certain elements, and adjusting layouts on smaller screens, like stacking the about section and adjusting the project grid to a single column.
+
+Animations and Transitions: Keyframes and transitions are used throughout to create a spinning logo animation and smooth hover transitions.
+
+Miscellaneous: Several other styles are defined for things like the navigation links, contact icons, and the layout of various sections like contact, resume, and about.
+
+*/
