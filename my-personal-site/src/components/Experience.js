@@ -2,6 +2,7 @@ const experiences = [
     {
         company: 'Santa Clara University',
         location: 'Santa Clara, CA',
+        duration: 'September 2023 – March 2025',
         role: 'Computer Science B.S',
         logo: `${process.env.PUBLIC_URL}/SCU-Logo.png`,
         tasks: [
