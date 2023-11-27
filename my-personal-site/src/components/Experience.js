@@ -10,6 +10,18 @@ const experiences = [
         ]
     },
 
+    {
+        company: 'Foothill College',
+        location: 'Los Altos Hills, CA',
+        duration: 'June 2021 – June 2023',
+        role: 'Degree For Transfer',
+        logo: `${process.env.PUBLIC_URL}/Foothill-Logo.png`,
+        tasks: [
+            'Actively engaged in mastering C++ at Foothill College, complemented by additional coursework in Python and Java',
+            'Achieved an outstanding GPA of 3.92, establishing a robust foundation for advanced studies in the field of computer science',
+        ]
+    }
+
 ];
 
 export default experiences;
