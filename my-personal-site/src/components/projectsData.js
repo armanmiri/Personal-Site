@@ -18,6 +18,14 @@ const projects = [
         ]
     },
     {
+        title: "Bill Calculator Project",
+        link: "https://github.com/armanmiri/Bill-Calculator-App",
+        description: [
+            "Bill Calculator is an intuitive iOS app designed to simplify the task of bill calculations.",
+            "Whether for personal use or group dining, it seamlessly integrates discounts, tips, service fees, and region-specific tax rates, ensuring an accurate and hassle-free bill splitting experience.",
+        ]
+    },
+    {
         title: "Data Science Project",
         link: "https://github.com/armanmiri/Security-Project",
         description: [
