@@ -1,5 +1,5 @@
 // Require the express module to create a server
-const express = require('express');
+import express from 'express';
 // Require the path module for handling and transforming file paths
 const path = require('path');
 // Create an instance of an express application
