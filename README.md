@@ -1,7 +1,5 @@
 # Personal-Site
 
-hosted at http://54.67.114.140:9000/
-
 This project represents a comprehensive React-based web application that encapsulates best practices in web development, including a component-driven architecture, state management, and responsive design. The App.test.js file contains a suite of unit tests that verify the app's functionality, confirming that each component renders as expected and interacts correctly with the user inputs.
 
 The styling, handled by the App.css file, adheres to modern design principles, providing a clean and intuitive user interface that adapts gracefully to different devices, ensuring a consistent experience whether on mobile, tablet, or desktop.
@@ -12,3 +10,4 @@ The deployment on an Amazon EC2 server leverages the robust capabilities of AWS,
 
 With its combination of a solid front-end foundation, thorough testing, stylish aesthetics, and a powerful cloud-based backend, this project is well-positioned to deliver a top-tier web application experience to its users.
 
+Hosted at http://54.67.114.140:9000/
