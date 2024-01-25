@@ -28,7 +28,7 @@ const AboutMe = () => {
                         <li>C++</li>
                         <li>JavaScript</li>
                         <li>React</li>
-                        <li>QT</li>
+                        <li>MongoDB</li>
                         <li>Python</li>
                         <li>Linux</li>
                         <li>CSS</li>
@@ -37,8 +37,8 @@ const AboutMe = () => {
                         <li>C</li>
                         <li>node.js</li>
                         <li>Pandas</li>
-                        <li>Swift UI</li>
-                        <li>Qt Creator</li>
+                        <li>SQL</li>
+                        <li>Qt</li>
                     </ul>
                 </div>
             </div>
