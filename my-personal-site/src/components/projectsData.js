@@ -35,12 +35,11 @@ const projects = [
         ]
     },
     {
-        title: "Security Project",
-        link: "https://github.com/armanmiri/Security-Project",
+        title: "Santa Clara University Works",
+        link: "https://github.com/armanmiri/Santa-Clara-University",
         description: [
-            "This assignment explores buffer overflow in C.",
-            "Students analyze a program with a password vulnerability, exploit it to bypass authentication, and use a debugger to inspect memory effects.",
-            "The goal is understanding buffer overflows and the significance of secure coding."
+            "This repository explores my works during my time at Santa Clara University.",
+            "There is a mix of projects and assignmnets summing up my work twoards my Computer Science Degree",
         ]
     },
     {
