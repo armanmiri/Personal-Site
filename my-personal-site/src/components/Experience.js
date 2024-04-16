@@ -8,6 +8,7 @@ const experiences = [
         tasks: [
             'Actively pursuing a specialization in Artificial Intelligence, with a keen interest in exploring its applications and innovations',
             'Committed to deepening my understanding and contributing to advancements in the AI domain',
+            'Relevant Coursework: Theory of Algorithms, Statistics, Web and Data Mining, Embedded Systems, Logic Design, Advanced Programing',
         ]
     },
 
@@ -20,6 +21,7 @@ const experiences = [
         tasks: [
             'Actively engaged in mastering C++ at Foothill College, complemented by additional coursework in Python and Java',
             'Achieved an outstanding GPA of 3.92, establishing a robust foundation for advanced studies in the field of computer science',
+            'Relevant Coursework: Linear Algebra, Differential equations, Data Structures, Discrete Math, Object Oriented Programing, Calculus',
         ]
     }
 
