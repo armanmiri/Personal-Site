@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Work from './components/Work';
 import Footer from './components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -21,7 +22,7 @@ const App = () => {
   // Function to handle scroll event and update the active section
   const handleScroll = () => {
     // List of sections to track
-    const sections = ['about', 'portfolio', 'resume'];
+    const sections = ['about', 'work', 'resume', 'portfolio',];
     
     // Calculate the middle of the screen
     const scrollY = window.scrollY + window.innerHeight / 2;
@@ -70,8 +71,10 @@ const App = () => {
         {/* Navigation links that scroll to respective sections */}
         {/* They become 'active' when their section is in view */}
         <a onClick={() => scrollToElement('about')} className={activeSection === 'about' ? 'active' : ''}>About Me</a>
-        <a onClick={() => scrollToElement('portfolio')} className={activeSection === 'portfolio' ? 'active' : ''}>Portfolio</a>
+        <a onClick={() => scrollToElement('work')} className={activeSection === 'work' ? 'active' : ''}>Experience</a>
         <a onClick={() => scrollToElement('resume')} className={activeSection === 'resume' ? 'active' : ''}>Education</a>
+        <a onClick={() => scrollToElement('portfolio')} className={activeSection === 'portfolio' ? 'active' : ''}>Portfolio</a>
+        
         
       </nav>
 
@@ -84,8 +87,9 @@ const App = () => {
       
       {/* Main content sections */}
       <div id="about"><AboutMe /></div>
+      <div id="experience"><Work /></div>
+      <div id="education"><Resume /></div>
       <div id="portfolio"><Portfolio /></div>
-      <div id="resume"><Resume /></div>
       {/* Footer component */}
       <Footer />
     </div>

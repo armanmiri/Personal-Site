@@ -448,6 +448,27 @@ h2 {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1450px) {
+
+  .profile-section,
+  .info-section {
+    padding: 20px 0;
+  }
+
+  .experience {
+    width: 90%;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .contact-component {
+    padding-top: 75px;
+    min-height: 800px;
+  }
+}
+
 /*
 
 this page includes 
