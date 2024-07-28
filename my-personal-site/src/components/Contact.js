@@ -29,7 +29,7 @@ const Contact = () => {
             </div>
             <div className="resume-download-container">
                 <div className="resume-icon">
-                    <a href="/Arman%20Miri%20Resume%202023.pdf" download target="_blank" rel="noopener noreferrer" className="icon-item">
+                    <a href="/Arman%20Miri%20Resume%202024.pdf" download target="_blank" rel="noopener noreferrer" className="icon-item">
                         <FontAwesomeIcon icon={faDownload} size="4x" className="icon download" />
                         <p>Download CV</p>
                     </a>
